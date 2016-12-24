@@ -1,0 +1,4 @@
+D:\桌面\AngularJS使用\AngularJSTutorials\bin\AngularJSTutorials.dll
+D:\桌面\AngularJS使用\AngularJSTutorials\bin\AngularJSTutorials.pdb
+D:\桌面\AngularJS使用\AngularJSTutorials\obj\Debug\AngularJSTutorials.dll
+D:\桌面\AngularJS使用\AngularJSTutorials\obj\Debug\AngularJSTutorials.pdb

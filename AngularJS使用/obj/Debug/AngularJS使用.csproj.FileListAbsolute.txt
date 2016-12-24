@@ -1,0 +1,8 @@
+C:\Users\Administrator\Desktop\AngularJS使用\AngularJS使用\bin\AngularJS使用.dll
+C:\Users\Administrator\Desktop\AngularJS使用\AngularJS使用\bin\AngularJS使用.pdb
+C:\Users\Administrator\Desktop\AngularJS使用\AngularJS使用\obj\Debug\AngularJS使用.dll
+C:\Users\Administrator\Desktop\AngularJS使用\AngularJS使用\obj\Debug\AngularJS使用.pdb
+D:\桌面\AngularJS使用\AngularJS使用\bin\AngularJS使用.dll
+D:\桌面\AngularJS使用\AngularJS使用\bin\AngularJS使用.pdb
+D:\桌面\AngularJS使用\AngularJS使用\obj\Debug\AngularJS使用.dll
+D:\桌面\AngularJS使用\AngularJS使用\obj\Debug\AngularJS使用.pdb

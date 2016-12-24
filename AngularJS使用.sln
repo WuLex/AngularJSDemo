@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AngularJS使用", "AngularJS使用\AngularJS使用.csproj", "{C53C6847-B59B-481A-80C1-AFABC503A0A0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BLL", "BLL\BLL.csproj", "{F6434193-6BB9-4156-9D75-6E12A12D01A7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AngularJSTutorials", "AngularJSTutorials\AngularJSTutorials.csproj", "{ECE25A79-E626-4A58-B373-EE3707C55C5A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C53C6847-B59B-481A-80C1-AFABC503A0A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C53C6847-B59B-481A-80C1-AFABC503A0A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C53C6847-B59B-481A-80C1-AFABC503A0A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C53C6847-B59B-481A-80C1-AFABC503A0A0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F6434193-6BB9-4156-9D75-6E12A12D01A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F6434193-6BB9-4156-9D75-6E12A12D01A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F6434193-6BB9-4156-9D75-6E12A12D01A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F6434193-6BB9-4156-9D75-6E12A12D01A7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ECE25A79-E626-4A58-B373-EE3707C55C5A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ECE25A79-E626-4A58-B373-EE3707C55C5A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ECE25A79-E626-4A58-B373-EE3707C55C5A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ECE25A79-E626-4A58-B373-EE3707C55C5A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,67 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <div ng-app="myApp">
+        <div ng_controller="FirstCtrl">
+            <input type="text" ng-model="data.message" />
+            <h1>
+                {{data.message+"--world"}}</h1>
+            <div class="{{data.message}}">
+                Wrap me with a foundation component
+            </div>
+        </div>
+        <div ng_controller="SecondCtrl">
+            <input type="text" ng-model="data.message" />
+            <h1>
+                {{data.message+"--world"}}</h1>
+
+            <h1>
+                {{reversedMesssage()}}</h1> 
+                 <h1>
+                {{data.message|reverse}}</h1>
+        </div>
+    </div>
+  
+  
+  
+  
+    <script src="js/angular.js" type="text/javascript"></script>
+    <script type="text/javascript">
+        var myApp = angular.module('myApp', []);
+        myApp.factory('Data', function () {
+            return {message:"I am data from a service"};
+        });
+
+        myApp.filter('reverse', function (Data) {
+            return function (text) {
+                return text.split("").reverse().join("") + Data.message;
+            }
+
+        });
+
+        function FirstCtrl($scope, Data) {
+            // $scope.data = { message: "panel" };
+            $scope.data = Data;
+        }
+
+        function SecondCtrl($scope, Data) {
+            //$scope.data = { message: "panel" };
+            $scope.data = Data;
+            $scope.reversedMesssage = function () {
+                return $scope.data.message.split("").reverse().join("");
+            }
+
+        }
+    </script>
+    <script type="text/javascript">
+        describe('filter', function () {
+            beforeEach(module('myApp'));
+            describe('');
+        });
+    </script>
+</body>
+</html>
