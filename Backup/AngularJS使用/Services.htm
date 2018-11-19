@@ -1,0 +1,53 @@
+﻿<!DOCTYPE html>
+<html ng-app="app">
+<head>
+<script src="js/angular.js" type="text/javascript"></script>
+    <script type="text/javascript">
+        //Value
+        //        app = angular.module("app", []);
+
+        //        app.controller('MainCtrl', function ($scope, fooConfig) {
+        //            $scope.fooConfig = fooConfig;
+        //            angular.extend(fooConfig, { config3: "I have been extended" });
+        //        });
+
+        //        app.value('fooConfig', {
+        //            config1: true,
+        //            config2: "Default config2 but it can changes"
+        //        });
+
+        //Factory
+        app = angular.module("app", []);
+
+        app.controller('MainCtrl', function ($scope, foo) {
+            $scope.foo = foo;
+        });
+
+        app.factory('foo', function () {
+            var thisIsPrivate = "Private";
+            function getPrivate() {
+                return thisIsPrivate;
+            }
+
+            return {
+                variable: "This is public",
+                getPrivate: getPrivate
+            };
+        });
+    </script>
+    <meta charset=utf-8 />
+<title>JS Bin</title>
+</head>
+    <body ng-controller="MainCtrl">
+        <!--  config1: {{fooConfig.config1}}
+            <br />
+            config2: {{fooConfig.config2}}
+            <br />
+            config3: {{fooConfig.config3}}-->
+        <hr/>
+        public variable: {{foo.variable}}
+        <br />
+        private variable (through getter): {{foo.getPrivate()}}
+    </body>
+
+</html>

@@ -1,0 +1,5 @@
+E:\GitProject\AngularJSDemo\BLL\bin\Debug\BLL.dll
+E:\GitProject\AngularJSDemo\BLL\bin\Debug\BLL.pdb
+E:\GitProject\AngularJSDemo\BLL\obj\Debug\BLL.csprojResolveAssemblyReference.cache
+E:\GitProject\AngularJSDemo\BLL\obj\Debug\BLL.dll
+E:\GitProject\AngularJSDemo\BLL\obj\Debug\BLL.pdb

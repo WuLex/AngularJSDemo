@@ -2,3 +2,9 @@ D:\桌面\AngularJS使用\AngularJSTutorials\bin\AngularJSTutorials.dll
 D:\桌面\AngularJS使用\AngularJSTutorials\bin\AngularJSTutorials.pdb
 D:\桌面\AngularJS使用\AngularJSTutorials\obj\Debug\AngularJSTutorials.dll
 D:\桌面\AngularJS使用\AngularJSTutorials\obj\Debug\AngularJSTutorials.pdb
+E:\GitProject\AngularJSDemo\AngularJSTutorials\bin\AngularJSTutorials.dll.config
+E:\GitProject\AngularJSDemo\AngularJSTutorials\bin\AngularJSTutorials.dll
+E:\GitProject\AngularJSDemo\AngularJSTutorials\bin\AngularJSTutorials.pdb
+E:\GitProject\AngularJSDemo\AngularJSTutorials\obj\Debug\AngularJSTutorials.csprojResolveAssemblyReference.cache
+E:\GitProject\AngularJSDemo\AngularJSTutorials\obj\Debug\AngularJSTutorials.dll
+E:\GitProject\AngularJSDemo\AngularJSTutorials\obj\Debug\AngularJSTutorials.pdb
